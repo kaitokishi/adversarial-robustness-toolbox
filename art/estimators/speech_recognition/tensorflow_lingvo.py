@@ -95,7 +95,8 @@ class TensorFlowLingvoASR(SpeechRecognizerMixin, TensorFlowV2Estimator):
         },
         "decoder": {
             "uri": (
-                "https://raw.githubusercontent.com/hesseltuinhof/lingvo/qin_patched_decoder/lingvo/tasks/asr/decoder.py"
+                "https://raw.githubusercontent.com/Trusted-AI/adversarial-robustness-toolbox/"
+                "2fcb9aa80eb4b10faed280ce2a24423c4e65b537/contrib/lingvo-patched-decoder.py"
             ),
             "basename": "decoder_patched.py",
         },
